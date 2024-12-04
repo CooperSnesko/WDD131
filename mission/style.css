@@ -38,3 +38,12 @@ li {
 h2 {
     color:#006EB6 ;
 }
+
+.dark {
+    background-color: #333;
+    color: white;
+}
+
+.dark h2 {
+    color: #80C7F2;
+}
