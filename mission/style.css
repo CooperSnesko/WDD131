@@ -1,0 +1,40 @@
+main {
+    border: solid 1px black;
+    padding: 60px 80px;
+    width: 600px;
+}
+
+img {
+    width: 150px;
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+h2 {
+    color:#006EB6 ;
+}
