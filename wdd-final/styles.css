@@ -11,7 +11,7 @@ html, body {
 .page-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 
@@ -20,15 +20,15 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: relative;
+    position: relative; 
 }
 
 
 .logo {
     position: absolute;
     top: 10px; 
-    left: 10px; 
-    width: 130px; 
+    left: 10px;
+    width: 140px; 
     height: auto; 
 }
 
@@ -42,7 +42,7 @@ header h2 {
     margin: 0;
 }
 
-
+/* Navigation styling */
 nav {
     margin: 1em 0;
 }
@@ -62,14 +62,45 @@ main {
 }
 
 
-section {
+#contact-form {
     margin-bottom: 2em;
 }
 
+#contact-form h2 {
+    text-align: center;
+}
 
-#intro img {
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
     width: 100%;
-    border-radius: 10px;
+}
+
+form button {
+    padding: 1em;
+    background-color: #321d49;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #808080;
 }
 
 
@@ -80,10 +111,14 @@ footer {
     color: white;
 }
 
+#intro {
+    text-align: center; 
+}
 
-
-
-
-
-
-
+#intro img {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 800px; 
+    border-radius: 10px;
+}
