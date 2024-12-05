@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     startButton.addEventListener("click", () => {
         alert("Let's start tracking your fitness journey!");
-        window.location.href = "workout-log.html"; // Navigate to workout log page
+        window.location.href = "workout-log.html";
     });
 });

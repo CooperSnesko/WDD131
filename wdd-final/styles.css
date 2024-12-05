@@ -89,7 +89,7 @@ form input, form textarea {
     width: 100%;
 }
 
-form button {
+ button {
     padding: 1em;
     background-color: #321d49;
     color: white;
@@ -99,7 +99,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+ button:hover {
     background-color: #808080;
 }
 
@@ -107,7 +107,7 @@ form button:hover {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #808080;
+    background-color: #3f3f3f;
     color: white;
 }
 

@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             logTable.appendChild(newRow);
 
-            // Clears the form
+            
             form.exercise.value = '';
             form.sets.value = '';
             form.reps.value = '';
