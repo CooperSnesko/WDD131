@@ -1,4 +1,3 @@
-/* Ensure the page container spans the entire height */
 html, body {
     height: 100%;
     margin: 0;
@@ -8,27 +7,42 @@ html, body {
     background-color: #f8f8f8;
 }
 
-/* Flexbox container for the entire page */
+
 .page-container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; 
 }
 
-/* Header styling */
+
 header {
     background-color: #321d49;
     color: white;
     text-align: center;
     padding: 1em 0;
+    position: relative;
+}
+
+
+.logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: 130px; 
+    height: auto; 
 }
 
 h1 {
     font-family: 'Creepster', cursive;
     letter-spacing: 10px;
+    margin: 0;
 }
 
-/* Navigation styling */
+header h2 {
+    margin: 0;
+}
+
+
 nav {
     margin: 1em 0;
 }
@@ -39,29 +53,37 @@ nav a {
     margin: 0 1em;
 }
 
-/* Main content styling */
+
 main {
-    flex: 1; /* Ensures main takes remaining space */
+    flex: 1; 
     padding: 2em;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Section spacing */
+
 section {
     margin-bottom: 2em;
 }
 
-/* Image styling */
+
 #intro img {
     width: 100%;
     border-radius: 10px;
 }
 
-/* Footer styling */
+
 footer {
     text-align: center;
     padding: 1em 0;
     background-color: #808080;
     color: white;
 }
+
+
+
+
+
+
+
+

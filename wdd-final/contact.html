@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumped | Fitness Tracking Simplified</title>
+    <title>Pumped | Contact Us</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+    <script src="contact.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -21,25 +21,23 @@
             </nav>
         </header>
         <main>
-            <section id="intro">
-                <h2>Welcome to Pumped</h2>
-                <p>
-                    Pumped is your go-to fitness companion, designed to help you log workouts, track progress, and stay motivated.
-                    Whether you're a seasoned athlete or just starting, we've got the tools you need.
-                </p>
-                <img src="images/banner.jpeg" alt="Fitness Banner">
-            </section>
-            <section id="features">
-                <h2>Features</h2>
-                <ul>
-                    <li>Simple workout logging</li>
-                    <li>Visual progress tracking</li>
-                    <li>Light and dark mode toggle</li>
-                </ul>
-            </section>
-            <section id="cta">
-                <h2>Ready to Get Pumped?</h2>
-                <button id="startBtn">Start Tracking Now</button>
+            <section id="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" placeholder="Your Phone Number" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required><br><br>
+
+                    <label for="question">Your Question:</label>
+                    <textarea id="question" name="question" placeholder="Your Question" required></textarea><br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
             </section>
         </main>
         <footer>
