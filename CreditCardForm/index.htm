@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Credit Card Submission Form">
+    <meta name="author" content="Your Name">
+    <title>Credit Card Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Credit Card Submission Form</h1>
+    <div id="form-container">
+        <form id="credit-card-form">
+            <!-- Card Front -->
+            <div id="card-front">
+                <img class="card-image" src="data:image/svg+xml;base64,..." height="55px" alt="Card Logo">
+                <label for="card-number">Card Number</label>
+                <input id="card-number" type="text" placeholder="0000 0000 0000 0000" required maxlength="19">
+                
+                <label for="card-holder">Card Holder</label>
+                <input id="card-holder" type="text" placeholder="Full Name" required>
+                
+                <div class="grid-row">
+                    <div>
+                        <label for="card-month">Exp Month</label>
+                        <input id="card-month" type="text" placeholder="MM" required maxlength="2">
+                    </div>
+                    <div>
+                        <label for="card-year">Exp Year</label>
+                        <input id="card-year" type="text" placeholder="YY" required maxlength="2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Back -->
+            <div id="card-back">
+                <label for="card-cvc">CVC</label>
+                <input id="card-cvc" type="text" placeholder="123" required maxlength="3">
+            </div>
+
+            <!-- Submit Button -->
+            <button id="card-btn" type="submit">Submit</button>
+
+            <!-- Error/Success Messages -->
+            <div id="form-errors" class="hidden">Please complete all fields correctly.</div>
+            <div id="card-success" class="hidden">Card details are valid!</div>
+        </form>
+    </div>
+</body>
+</html>

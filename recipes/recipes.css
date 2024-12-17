@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 2rem;
+    margin: 10px 0 0;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar form {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.search-bar button img {
+    height: 20px;
+}
+
+#recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recipe-card .details {
+    padding: 15px;
+}
+
+.recipe-card .tags {
+    margin-bottom: 10px;
+}
+
+.recipe-card .tags span {
+    display: inline-block;
+    background-color: #59c3c3;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.recipe-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #1B98E0;
+}
+
+.recipe-card .rating {
+    margin-bottom: 10px;
+}
+
+.recipe-card .description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+footer a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer .social img {
+    width: 20px;
+    margin: 0 5px;
+}
